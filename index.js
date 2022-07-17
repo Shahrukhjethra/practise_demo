@@ -7,7 +7,7 @@ app.post('/', () => {
     controller.index();
 })
 
-app.post('/', () => {
+app.post('/test', () => {
     controller.index();
 })
 

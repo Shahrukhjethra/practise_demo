@@ -11,6 +11,10 @@ app.post('/test', () => {
     controller.index();
 })
 
+app.post('/test1', () => {
+    controller.index();
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
 });
